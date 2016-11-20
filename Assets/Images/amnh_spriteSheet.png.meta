@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 9564ef1e226ae46e6a77f6a982160198
-timeCreated: 1479651261
+timeCreated: 1479657040
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -157,12 +157,12 @@ TextureImporter:
       name: map_sprite
       rect:
         serializedVersion: 2
-        x: 38
-        y: 275
-        width: 113
-        height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 14
+        y: 149
+        width: 258
+        height: 251
+      alignment: 9
+      pivot: {x: 0.26401183, y: 0.68732774}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -170,12 +170,12 @@ TextureImporter:
       name: read_sprite
       rect:
         serializedVersion: 2
-        x: 36
-        y: 214
+        x: 47
+        y: 91
         width: 120
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.62121236, y: -0.44697}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -183,10 +183,10 @@ TextureImporter:
       name: page_sprite
       rect:
         serializedVersion: 2
-        x: 37
+        x: 46
         y: 13
-        width: 122
-        height: 184
+        width: 113
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
