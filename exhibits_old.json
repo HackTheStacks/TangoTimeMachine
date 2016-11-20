@@ -1,9 +1,9 @@
 [
     {
         "pages": [
-            "021_Memorial_Hall.jpg",
-            "022_Memorial_Hall.jpg",
-            "023_Memorial_Hall.jpg"
+            "021_Memorial_Hall.png",
+            "022_Memorial_Hall.png",
+            "023_Memorial_Hall.png"
         ],
         "area": "South Pavilion",
         "old_exhibit": "Memorial Hall",
@@ -12,19 +12,10 @@
     },
     {
         "pages": [
-            "023_Meteorites.jpg"
-        ],
-        "area": null,
-        "old_exhibit": "Meteorites",
-        "floor": 1,
-        "new_exhibit": "Grand Gallery"
-    },
-    {
-        "pages": [
-            "023_Indians_of_North_Pacific_Coast.jpg",
-            "024_Indians_of_North_Pacific_Coast.jpg",
-            "025_Indians_of_North_Pacific_Coast.jpg",
-            "026_Indians_of_North_Pacific_Coast.jpg"
+            "023_Indians_of_North_Pacific_Coast.png",
+            "024_Indians_of_North_Pacific_Coast.png",
+            "025_Indians_of_North_Pacific_Coast.png",
+            "026_Indians_of_North_Pacific_Coast.png"
         ],
         "area": "South Central Wing",
         "old_exhibit": "Indians of North Pacific Coast",
@@ -33,7 +24,8 @@
     },
     {
         "pages": [
-            "026_Eskimo_Collections.jpg"
+            "026_Eskimo_Collections.png",
+            "027_Eskimo_Collections.png"
         ],
         "area": "South Central Wing",
         "old_exhibit": "Eskimo Collections",
@@ -42,30 +34,10 @@
     },
     {
         "pages": [
-            "026_Mural_Decorations.jpg",
-            "027_Mural_Decorations.jpg"
-        ],
-        "area": "South Central Wing",
-        "old_exhibit": "Mural Decorations",
-        "floor": 1,
-        "new_exhibit": null
-    },
-    {
-        "pages": [
-            "027_Auditorium.jpg"
-        ],
-        "area": "Central Pavilion",
-        "old_exhibit": "Auditorium",
-        "floor": 1,
-        "new_exhibit": "LeFrak IMAX Theater"
-    },
-    {
-        "pages": [
-            "027_Indians_of_the_Woodlands.jpg",
-            "028_Indians_of_the_Woodlands.jpg",
-            "029_Indians_of_the_Woodlands.jpg",
-            "030_Indians_of_the_Woodlands.jpg",
-            "031_Indians_of_the_Woodlands.jpg"
+            "027_Indians_of_the_Woodlands.png",
+            "028_Indians_of_the_Woodlands.png",
+            "029_Indians_of_the_Woodlands.png",
+            "030_Indians_of_the_Woodlands.png"
         ],
         "area": "Southwest Wing",
         "old_exhibit": "Indians of the Woodlands",
@@ -74,10 +46,9 @@
     },
     {
         "pages": [
-            "031_Indians_of_the_Plains.jpg",
-            "032_Indians_of_the_Plains.jpg",
-            "033_Indians_of_the_Plains.jpg",
-            "034_Indians_of_the_Plains.jpg"
+            "030_Indians_of_the_Plains.png",
+            "031_Indians_of_the_Plains.png",
+            "032_Indians_of_the_Plains.png"
         ],
         "area": "Southwest Pavilion",
         "old_exhibit": "Indians of the Plains",
@@ -86,10 +57,10 @@
     },
     {
         "pages": [
-            "034_Indians_of_the_Southwest.jpg",
-            "035_Indians_of_the_Southwest.jpg",
-            "036_Indians_of_the_Southwest.jpg",
-            "037_Indians_of_the_Southwest.jpg"
+            "033_Indians_of_the_Southwest.png",
+            "034_Indians_of_the_Southwest.png",
+            "035_Indians_of_the_Southwest.png",
+            "036_Indians_of_the_Southwest.png"
         ],
         "area": "West Wing",
         "old_exhibit": "Indians of the Southwest",
@@ -98,7 +69,7 @@
     },
     {
         "pages": [
-            "037_Polar_Maps.jpg"
+            "037_Polar_Maps.png"
         ],
         "area": "East Corridor",
         "old_exhibit": "Polar Maps",
@@ -107,9 +78,9 @@
     },
     {
         "pages": [
-            "037_Jesup_Collection_of_North_American_Woods.jpg",
-            "038_Jesup_Collection_of_North_American_Woods.jpg",
-            "039_Jesup_Collection_of_North_American_Woods.jpg"
+            "037_Jesup_Collection_of_North_American_Woods.png",
+            "038_Jesup_Collection_of_North_American_Woods.png",
+            "039_Jesup_Collection_of_North_American_Woods.png"
         ],
         "area": "Southeast Wing",
         "old_exhibit": "Jesup Collection of North American Woods",
@@ -118,15 +89,13 @@
     },
     {
         "pages": [
-            "039_Darwin_Hall_Invertebrates.jpg",
-            "040_Darwin_Hall_Invertebrates.jpg",
-            "041_Darwin_Hall_Invertebrates.jpg",
-            "042_Darwin_Hall_Invertebrates.jpg",
-            "043_Darwin_Hall_Invertebrates.jpg",
-            "044_Darwin_Hall_Invertebrates.jpg",
-            "045_Darwin_Hall_Invertebrates.jpg",
-            "046_Darwin_Hall_Invertebrates.jpg",
-            "047_Darwin_Hall_Invertebrates.jpg"
+            "039_Darwin_Hall_Invertebrates.png",
+            "040_Darwin_Hall_Invertebrates.png",
+            "041_Darwin_Hall_Invertebrates.png",
+            "042_Darwin_Hall_Invertebrates.png",
+            "043_Darwin_Hall_Invertebrates.png",
+            "044_Darwin_Hall_Invertebrates.png",
+            "045_Darwin_Hall_Invertebrates.png"
         ],
         "area": "Southeast Pavilion",
         "old_exhibit": "Darwin Hall, Invertebrates",
@@ -135,11 +104,11 @@
     },
     {
         "pages": [
-            "047_Amphibians_Reptiles.jpg",
-            "048_Amphibians_Reptiles.jpg",
-            "049_Amphibians_Reptiles.jpg",
-            "050_Amphibians_Reptiles.jpg",
-            "051_Amphibians_Reptiles.jpg"
+            "046_Amphibians_Reptiles.png",
+            "047_Amphibians_Reptiles.png",
+            "048_Amphibians_Reptiles.png",
+            "049_Amphibians_Reptiles.png",
+            "050_Amphibians_Reptiles.png"
         ],
         "area": "South Pavilion",
         "old_exhibit": "Amphibians, Reptiles",
@@ -148,9 +117,8 @@
     },
     {
         "pages": [
-            "051_Local_Birds.jpg",
-            "052_Local_Birds.jpg",
-            "053_Local_Birds.jpg"
+            "051_Local_Birds.png",
+            "053_Local_Birds.png"
         ],
         "area": "West Corridor",
         "old_exhibit": "Local Birds",
@@ -159,9 +127,10 @@
     },
     {
         "pages": [
-            "053_Ancient_Monuments_of_Mexico_and_Central_America.jpg",
-            "054_Ancient_Monuments_of_Mexico_and_Central_America.jpg",
-            "055_Ancient_Monuments_of_Mexico_and_Central_America.jpg"
+            "052_Ancient_Monuments_of_Mexico_and_Central_America.png",
+            "053_Ancient_Monuments_of_Mexico_and_Central_America.png",
+            "054_Ancient_Monuments_of_Mexico_and_Central_America.png",
+            "055_Ancient_Monuments_of_Mexico_and_Central_America.png"
         ],
         "area": "Southwest Wing",
         "old_exhibit": "Ancient Monuments of Mexico and Central America",
@@ -170,9 +139,8 @@
     },
     {
         "pages": [
-            "055_Prehistoric_Man_of_North_America_and_Europe.jpg",
-            "056_Prehistoric_Man_of_North_America_and_Europe.jpg",
-            "057_Prehistoric_Man_of_North_America_and_Europe.jpg"
+            "055_Prehistoric_Man_of_North_America_and_Europe.png",
+            "056_Prehistoric_Man_of_North_America_and_Europe.png"
         ],
         "area": "Southwest Pavilion",
         "old_exhibit": "Prehistoric Man of North America and Europe",
@@ -181,8 +149,8 @@
     },
     {
         "pages": [
-            "057_Collections_from_Africa.jpg",
-            "058_Collections_from_Africa.jpg"
+            "057_Collections_from_Africa.png",
+            "058_Collections_from_Africa.png"
         ],
         "area": "West Wing",
         "old_exhibit": "Collections from Africa",
@@ -191,12 +159,10 @@
     },
     {
         "pages": [
-            "058_Birds_of_the_World.jpg",
-            "059_Birds_of_the_World.jpg",
-            "060_Birds_of_the_World.jpg",
-            "061_Birds_of_the_World.jpg",
-            "062_Birds_of_the_World.jpg",
-            "063_Birds_of_the_World.jpg"
+            "058_Birds_of_the_World.png",
+            "059_Birds_of_the_World.png",
+            "060_Birds_of_the_World.png",
+            "061_Birds_of_the_World.png"
         ],
         "area": "South Central Wing",
         "old_exhibit": "Birds of the World",
@@ -205,11 +171,11 @@
     },
     {
         "pages": [
-            "063_Recent_Fishes.jpg",
-            "064_Recent_Fishes.jpg",
-            "065_Recent_Fishes.jpg",
-            "066_Recent_Fishes.jpg",
-            "067_Recent_Fishes.jpg"
+            "062_Recent_Fishes.png",
+            "063_Recent_Fishes.png",
+            "064_Recent_Fishes.png",
+            "065_Recent_Fishes.png",
+            "066_Recent_Fishes.png"
         ],
         "area": "Corridor of Central Pavilion",
         "old_exhibit": "Recent Fishes",
@@ -218,14 +184,14 @@
     },
     {
         "pages": [
-            "067_Mammals_of_North_America.jpg",
-            "068_Mammals_of_North_America.jpg",
-            "069_Mammals_of_North_America.jpg",
-            "070_Mammals_of_North_America.jpg",
-            "071_Mammals_of_North_America.jpg",
-            "072_Mammals_of_North_America.jpg",
-            "073_Mammals_of_North_America.jpg",
-            "074_Mammals_of_North_America.jpg"
+            "067_Mammals_of_North_America.png",
+            "068_Mammals_of_North_America.png",
+            "069_Mammals_of_North_America.png",
+            "070_Mammals_of_North_America.png",
+            "071_Mammals_of_North_America.png",
+            "072_Mammals_of_North_America.png",
+            "073_Mammals_of_North_America.png",
+            "074_Mammals_of_North_America.png"
         ],
         "area": "Southeast Wing",
         "old_exhibit": "Mammals of North America",
@@ -234,8 +200,7 @@
     },
     {
         "pages": [
-            "074_Preparation_of_Elephant_Group.jpg",
-            "075_Preparation_of_Elephant_Group.jpg"
+            "074_Preparation_of_Elephant_Group.png"
         ],
         "area": "Southeast Pavilion",
         "old_exhibit": "Preparation of Elephant Group",
@@ -244,18 +209,9 @@
     },
     {
         "pages": [
-            "075_Members_Room.jpg"
-        ],
-        "area": "East Corridor",
-        "old_exhibit": "Members' Room",
-        "floor": 3,
-        "new_exhibit": null
-    },
-    {
-        "pages": [
-            "075_Monkeys_Apes_Rodents_and_Bats.jpg",
-            "076_Monkeys_Apes_Rodents_and_Bats.jpg",
-            "077_Monkeys_Apes_Rodents_and_Bats.jpg"
+            "075_Monkeys_Apes_Rodents_and_Bats.png",
+            "076_Monkeys_Apes_Rodents_and_Bats.png",
+            "077_Monkeys_Apes_Rodents_and_Bats.png"
         ],
         "area": "South Central Pavilion",
         "old_exhibit": "Monkeys. Apes, Rodents and Bats",
@@ -264,24 +220,15 @@
     },
     {
         "pages": [
-            "077_Right_Whale_Skeleton.jpg"
-        ],
-        "area": "South Pavilion",
-        "old_exhibit": "Right Whale Skeleton",
-        "floor": 3,
-        "new_exhibit": "Cuba!"
-    },
-    {
-        "pages": [
-            "077_Habitat_Groups_of_North_American_Birds.jpg",
-            "078_Habitat_Groups_of_North_American_Birds.jpg",
-            "079_Habitat_Groups_of_North_American_Birds.jpg",
-            "080_Habitat_Groups_of_North_American_Birds.jpg",
-            "081_Habitat_Groups_of_North_American_Birds.jpg",
-            "082_Habitat_Groups_of_North_American_Birds.jpg",
-            "083_Habitat_Groups_of_North_American_Birds.jpg",
-            "084_Habitat_Groups_of_North_American_Birds.jpg",
-            "085_Habitat_Groups_of_North_American_Birds.jpg"
+            "077_Habitat_Groups_of_North_American_Birds.png",
+            "078_Habitat_Groups_of_North_American_Birds.png",
+            "079_Habitat_Groups_of_North_American_Birds.png",
+            "080_Habitat_Groups_of_North_American_Birds.png",
+            "081_Habitat_Groups_of_North_American_Birds.png",
+            "082_Habitat_Groups_of_North_American_Birds.png",
+            "083_Habitat_Groups_of_North_American_Birds.png",
+            "084_Habitat_Groups_of_North_American_Birds.png",
+            "085_Habitat_Groups_of_North_American_Birds.png"
         ],
         "area": "South Central Wing",
         "old_exhibit": "Habitat Groups of North American Birds",
@@ -290,12 +237,12 @@
     },
     {
         "pages": [
-            "085_Public_Health_Water_Supply_Insects_and_Disease.jpg",
-            "086_Public_Health_Water_Supply_Insects_and_Disease.jpg",
-            "087_Public_Health_Water_Supply_Insects_and_Disease.jpg",
-            "088_Public_Health_Water_Supply_Insects_and_Disease.jpg",
-            "089_Public_Health_Water_Supply_Insects_and_Disease.jpg",
-            "090_Public_Health_Water_Supply_Insects_and_Disease.jpg"
+            "085_Public_Health_Water_Supply_Insects_and_Disease.png",
+            "086_Public_Health_Water_Supply_Insects_and_Disease.png",
+            "087_Public_Health_Water_Supply_Insects_and_Disease.png",
+            "088_Public_Health_Water_Supply_Insects_and_Disease.png",
+            "089_Public_Health_Water_Supply_Insects_and_Disease.png",
+            "090_Public_Health_Water_Supply_Insects_and_Disease.png"
         ],
         "area": "West Corridor",
         "old_exhibit": "Public Health: Water Supply, Insects and Disease",
@@ -304,21 +251,10 @@
     },
     {
         "pages": [
-            "090_Auduboniana.jpg",
-            "091_Auduboniana.jpg"
-        ],
-        "area": "West Corridor",
-        "old_exhibit": "Auduboniana",
-        "floor": 3,
-        "new_exhibit": null
-    },
-    {
-        "pages": [
-            "091_Indians_of_South_America.jpg",
-            "092_Indians_of_South_America.jpg",
-            "093_Indians_of_South_America.jpg",
-            "094_Indians_of_South_America.jpg",
-            "095_Indians_of_South_America.jpg"
+            "091_Indians_of_South_America.png",
+            "092_Indians_of_South_America.png",
+            "093_Indians_of_South_America.png",
+            "094_Indians_of_South_America.png"
         ],
         "area": "Southwest Wing",
         "old_exhibit": "Indians of South America",
@@ -327,9 +263,9 @@
     },
     {
         "pages": [
-            "095_Chinese_and_Siberian_Collections.jpg",
-            "096_Chinese_and_Siberian_Collections.jpg",
-            "097_Chinese_and_Siberian_Collections.jpg"
+            "095_Chinese_and_Siberian_Collections.png",
+            "096_Chinese_and_Siberian_Collections.png",
+            "097_Chinese_and_Siberian_Collections.png"
         ],
         "area": "Southwest Pavilion",
         "old_exhibit": "Chinese and Siberian Collections",
@@ -338,8 +274,7 @@
     },
     {
         "pages": [
-            "097_Shells.jpg",
-            "098_Shells.jpg"
+            "097_Shells.png"
         ],
         "area": "West Wing",
         "old_exhibit": "Shells",
@@ -348,8 +283,8 @@
     },
     {
         "pages": [
-            "098_Mammals_of_the_World_Their_Families_and_Evolution.jpg",
-            "099_Mammals_of_the_World_Their_Families_and_Evolution.jpg"
+            "098_Mammals_of_the_World_Their_Families_and_Evolution.png",
+            "099_Mammals_of_the_World_Their_Families_and_Evolution.png"
         ],
         "area": "Southeast Wing",
         "old_exhibit": "Mammals of the World, Their Families and Evolution",
@@ -358,11 +293,10 @@
     },
     {
         "pages": [
-            "099_Hall_of_Insect_Life.jpg",
-            "100_Hall_of_Insect_Life.jpg",
-            "101_Hall_of_Insect_Life.jpg",
-            "102_Hall_of_Insect_Life.jpg",
-            "103_Hall_of_Insect_Life.jpg"
+            "099_Hall_of_Insect_Life.png",
+            "100_Hall_of_Insect_Life.png",
+            "101_Hall_of_Insect_Life.png",
+            "102_Hall_of_Insect_Life.png"
         ],
         "area": "Southeast Pavilion",
         "old_exhibit": "Hall of Insect Life",
@@ -371,17 +305,8 @@
     },
     {
         "pages": [
-            "103_Foreword_on_Fossil_Vertebrates.jpg",
-            "104_Foreword_on_Fossil_Vertebrates.jpg"
-        ],
-        "area": null,
-        "old_exhibit": "Foreword on Fossil Vertebrates",
-        "floor": 4,
-        "new_exhibit": null
-    },
-    {
-        "pages": [
-            "104_Fossil_Fishlike_Lizards.jpg"
+            "103_Foreword_on_Fossil_Vertebrates.png",
+            "104_Fossil_Fishlike_Lizards.png"
         ],
         "area": "West Corridor",
         "old_exhibit": "Fossil Fishlike Lizards",
@@ -390,11 +315,10 @@
     },
     {
         "pages": [
-            "104_Early_Man_Mastodons_and_Mammoths.jpg",
-            "105_Early_Man_Mastodons_and_Mammoths.jpg",
-            "106_Early_Man_Mastodons_and_Mammoths.jpg",
-            "107_Early_Man_Mastodons_and_Mammoths.jpg",
-            "108_Early_Man_Mastodons_and_Mammoths.jpg"
+            "104_Early_Man_Mastodons_and_Mammoths.png",
+            "105_Early_Man_Mastodons_and_Mammoths.png",
+            "106_Early_Man_Mastodons_and_Mammoths.png",
+            "107_Early_Man_Mastodons_and_Mammoths.png"
         ],
         "area": "South Pavilion",
         "old_exhibit": "Early Man, Mastodons and Mammoths",
@@ -403,11 +327,10 @@
     },
     {
         "pages": [
-            "108_Mammals_of_the_Tertiary_Period.jpg",
-            "109_Mammals_of_the_Tertiary_Period.jpg",
-            "110_Mammals_of_the_Tertiary_Period.jpg",
-            "111_Mammals_of_the_Tertiary_Period.jpg",
-            "112_Mammals_of_the_Tertiary_Period.jpg"
+            "108_Mammals_of_the_Tertiary_Period.png",
+            "109_Mammals_of_the_Tertiary_Period.png",
+            "110_Mammals_of_the_Tertiary_Period.png",
+            "111_Mammals_of_the_Tertiary_Period.png"
         ],
         "area": "Southeast Wing",
         "old_exhibit": "Mammals of the Tertiary Period",
@@ -416,13 +339,13 @@
     },
     {
         "pages": [
-            "112_Fossil_Reptiles_and_Fishes.jpg",
-            "113_Fossil_Reptiles_and_Fishes.jpg",
-            "114_Fossil_Reptiles_and_Fishes.jpg",
-            "115_Fossil_Reptiles_and_Fishes.jpg",
-            "116_Fossil_Reptiles_and_Fishes.jpg",
-            "117_Fossil_Reptiles_and_Fishes.jpg",
-            "118_Fossil_Reptiles_and_Fishes.jpg"
+            "112_Fossil_Reptiles_and_Fishes.png",
+            "113_Fossil_Reptiles_and_Fishes.png",
+            "114_Fossil_Reptiles_and_Fishes.png",
+            "115_Fossil_Reptiles_and_Fishes.png",
+            "116_Fossil_Reptiles_and_Fishes.png",
+            "117_Fossil_Reptiles_and_Fishes.png",
+            "118_Fossil_Reptiles_and_Fishes.png"
         ],
         "area": "Southeast Pavilion",
         "old_exhibit": "Fossil Reptiles and Fishes",
@@ -431,14 +354,12 @@
     },
     {
         "pages": [
-            "118_Geology_and_Invertebrate_Palaeontology.jpg",
-            "119_Geology_and_Invertebrate_Palaeontology.jpg",
-            "120_Geology_and_Invertebrate_Palaeontology.jpg",
-            "121_Geology_and_Invertebrate_Palaeontology.jpg",
-            "122_Geology_and_Invertebrate_Palaeontology.jpg",
-            "123_Geology_and_Invertebrate_Palaeontology.jpg",
-            "124_Geology_and_Invertebrate_Palaeontology.jpg",
-            "125_Geology_and_Invertebrate_Palaeontology.jpg"
+            "118_Geology_and_Invertebrate_Palaeontology.png",
+            "119_Geology_and_Invertebrate_Palaeontology.png",
+            "120_Geology_and_Invertebrate_Palaeontology.png",
+            "121_Geology_and_Invertebrate_Palaeontology.png",
+            "122_Geology_and_Invertebrate_Palaeontology.png",
+            "123_Geology_and_Invertebrate_Palaeontology.png"
         ],
         "area": "South Central Wing",
         "old_exhibit": "Geology and Invertebrate Palaeontology",
@@ -447,8 +368,9 @@
     },
     {
         "pages": [
-            "125_Gems_and_Precious_Stones.jpg",
-            "126_Gems_and_Precious_Stones.jpg"
+            "124_Gems_and_Precious_Stones.png",
+            "125_Gems_and_Precious_Stones.png",
+            "126_Gems_and_Precious_Stones.png"
         ],
         "area": "West Corridor",
         "old_exhibit": "Gems and Precious Stones",
@@ -457,32 +379,14 @@
     },
     {
         "pages": [
-            "126_Minerals.jpg"
-        ],
-        "area": "Southwest Wing",
-        "old_exhibit": "Minerals",
-        "floor": 4,
-        "new_exhibit": null
-    },
-    {
-        "pages": [
-            "126_Collections_from_the_Pacific_Islands.jpg",
-            "127_Collections_from_the_Pacific_Islands.jpg",
-            "128_Collections_from_the_Pacific_Islands.jpg",
-            "129_Collections_from_the_Pacific_Islands.jpg"
+            "126_Collections_from_the_Pacific_Islands.png",
+            "127_Collections_from_the_Pacific_Islands.png",
+            "128_Collections_from_the_Pacific_Islands.png",
+            "129_Collections_from_the_Pacific_Islands.png",
+            "130_Collections_from_the_Pacific_Islands.png"
         ],
         "area": "Southwest Pavilion",
         "old_exhibit": "Collections from the Pacific Islands",
-        "floor": 4,
-        "new_exhibit": null
-    },
-    {
-        "pages": [
-            "129_Collections_from_the_Philippines.jpg",
-            "130_Collections_from_the_Philippines.jpg"
-        ],
-        "area": "West Wing",
-        "old_exhibit": "Collections from the Philippines",
         "floor": 4,
         "new_exhibit": null
     }
