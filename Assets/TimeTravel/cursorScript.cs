@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Tango;
 using UnityEngine;
+using UnityEngine.UI;
 
 /// <summary>
 /// </summary>
@@ -57,6 +58,8 @@ public class cursorScript : MonoBehaviour, ITangoLifecycle, ITangoDepth
 	/// The point cloud object in the scene.
 	/// </summary>
 	public TangoPointCloud m_pointCloud;
+
+	public Text debugText;
 
 	private const float FPS_UPDATE_FREQUENCY = 1.0f;
 	private string m_fpsText;
@@ -324,28 +327,14 @@ public class cursorScript : MonoBehaviour, ITangoLifecycle, ITangoDepth
 			Touch t = Input.GetTouch(0);
 			Vector2 guiPosition = new Vector2(t.position.x, Screen.height - t.position.y);
 			Camera cam = Camera.main;
-			RaycastHit hitInfo;
 
-			if (t.phase != TouchPhase.Began)
-			{
+			if (t.phase != TouchPhase.Began) {
 				return;
 			}
 
-			if (m_selectedRect.Contains(guiPosition) || m_hideAllRect.Contains(guiPosition))
-			{
+			if (m_selectedRect.Contains(guiPosition) || m_hideAllRect.Contains(guiPosition)) {
 				// do nothing, the button will handle it
-			}
-			else if (Physics.Raycast(cam.ScreenPointToRay(t.position), out hitInfo))
-			{
-				// Found a marker, select it (so long as it isn't disappearing)!
-				GameObject tapped = hitInfo.collider.gameObject;
-				if (!tapped.GetComponent<Animation>().isPlaying)
-				{
-					m_selectedMarker = tapped.GetComponent<PaperMarker>();
-				}
-			}
-			else
-			{
+			} else {
 				// Place a new point at that location, clear selection
 				m_selectedMarker = null;
 				StartCoroutine(_WaitForDepthAndFindPlane(t.position));
@@ -393,6 +382,7 @@ public class cursorScript : MonoBehaviour, ITangoLifecycle, ITangoDepth
 
 		// Turn on the camera and wait for a single depth update.
 		m_tangoApplication.SetDepthCameraRate(TangoEnums.TangoDepthCameraRate.MAXIMUM);
+
 		while (m_findPlaneWaitingForDepth)
 		{
 			yield return null;
@@ -409,7 +399,6 @@ public class cursorScript : MonoBehaviour, ITangoLifecycle, ITangoDepth
 			yield break;
 		}
 
-		// Ensure the location is always facing the camera.  This is like a LookRotation, but for the Y axis.
 		Vector3 up = plane.normal;
 		Vector3 forward;
 		if (Vector3.Angle(plane.normal, cam.transform.forward) < 175)
@@ -424,7 +413,7 @@ public class cursorScript : MonoBehaviour, ITangoLifecycle, ITangoDepth
 			forward = Vector3.Cross(up, cam.transform.right);
 		}
 
-		Instantiate(m_prefabMarker, planeCenter, Quaternion.identity);
+		Instantiate(m_prefabMarker, planeCenter, Quaternion.LookRotation(forward, up));
 		m_selectedMarker = null;
 	}
 }
