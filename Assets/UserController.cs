@@ -5,10 +5,48 @@ using UnityEngine.UI;
 public class UserController : MonoBehaviour {
 
 	private const int TOTAL_PAGES = 10;
+	private string[,] currentExhibits = new string[,] {
+		{
+			"Guggenheim Hall of Minerals",
+			"Ross Hall of Meteorites",
+			"Spitzer Hall of Human Origins",
+			"Grand Gallery",
+			"Warburg Hall of New York State Environment",
+			"North American Forests",
+			"Northwest Coast Indians",
+			"Lefrak Imax Theater"
+		},
+		{
+			"South American Peoples",
+			"Mexico and Central America",
+			"Birds of the World",
+			"African Peoples",
+			"Stout Hall of Asian Peoples",
+			"Akeley Gallery",
+			"", "",
+		},
+		{
+			"Margaret Mead Hall of Pacific Peoples",
+			"Plains Indians",
+			"Eastern Woodlands Indians",
+			"Primates",
+			"Special Exhibition Gallery 3",
+			"Sanford Hall of North American Birds",
+			"New York State Mammals",
+			""
+		},
+		{
+			"Wallach Orientation Center",
+			"Vertebrate Origins",
+			"Milstein Hall of Advanced Mammals",
+			"Primitive Mammals", "", "", "", ""
+		}
+	};
 
 	private int foundPages;
 	private int progressPercentage;
 	private string hall;
+	private int floor;
 	private bool fingerDown;
 
 	public Text hallText;
@@ -20,6 +58,7 @@ public class UserController : MonoBehaviour {
 		progressPercentage = 0;
 		hall = "";
 		fingerDown = false;
+		initializePlayerPrefs ();
 	}
 
 	void Update () {
@@ -41,6 +80,10 @@ public class UserController : MonoBehaviour {
 		return hall;
 	}
 
+	public int getFloor() {
+		return floor;
+	}
+
 	public void updateProgress() {
 		foundPages++;
 		if(progressPercentage >= 100) return;
@@ -52,5 +95,29 @@ public class UserController : MonoBehaviour {
 	public void setHall(string newHall) {
 		hall = newHall;
 		hallText.text = hall;
+	}
+
+	public void setFloor(int newFloor) {
+		floor = newFloor;
+	}
+
+	private void initializePlayerPrefs() {
+		for(int i = 0; i < 4; i++) {
+			for(int j = 0; j < 8; j++) {
+				PlayerPrefs.SetInt (currentExhibits[i, j], 0);
+			}
+		}
+	}
+
+	public string[] getCurrentExhibits(int floor) {
+		string[] exhibitsForFloor = new string[8];
+		for(int i = 0; i < 8; i++) {
+			exhibitsForFloor [i] = currentExhibits [floor, i];
+		}
+		return exhibitsForFloor;
+	}
+
+	public string getHallNameFromIndex(int index) {
+		return currentExhibits[floor, index];
 	}
 }
