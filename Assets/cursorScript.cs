@@ -6,7 +6,7 @@ using UnityEngine;
 
 /// <summary>
 /// </summary>
-public class ARGUIController : MonoBehaviour, ITangoLifecycle, ITangoDepth
+public class cursorScript : MonoBehaviour, ITangoLifecycle, ITangoDepth
 {
 	// Constant value for controlling the position and size of debug overlay.
 	public const float UI_LABEL_START_X = 15.0f;
@@ -78,7 +78,7 @@ public class ARGUIController : MonoBehaviour, ITangoLifecycle, ITangoDepth
 	/// <summary>
 	/// If set, this is the selected marker.
 	/// </summary>
-	private ARMarker m_selectedMarker;
+	private PaperMarker m_selectedMarker;
 
 	/// <summary>
 	/// If set, this is the rectangle bounding the selected marker.
@@ -147,115 +147,7 @@ public class ARGUIController : MonoBehaviour, ITangoLifecycle, ITangoDepth
 			AndroidHelper.AndroidQuit();
 		}
 	}
-
-	/// <summary>
-	/// Display simple GUI.
-	/// </summary>
-	public void OnGUI()
-	{
-		Rect distortionButtonRec = new Rect(UI_BUTTON_GAP_X,
-			Screen.height - UI_BUTTON_SIZE_Y - UI_BUTTON_GAP_X,
-			UI_BUTTON_SIZE_X,
-			UI_BUTTON_SIZE_Y);
-		string isOn = m_arCameraPostProcess.enabled ? "Off" : "On";
-		if (GUI.Button(distortionButtonRec,
-			UI_FONT_SIZE + "Turn Distortion " + isOn + "</size>"))
-		{
-			m_arCameraPostProcess.enabled = !m_arCameraPostProcess.enabled;
-		}
-
-		if (m_showDebug && m_tangoApplication.HasRequestedPermissions())
-		{
-			Color oldColor = GUI.color;
-			GUI.color = Color.white;
-
-			GUI.color = Color.black;
-			GUI.Label(new Rect(UI_LABEL_START_X,
-				UI_LABEL_START_Y,
-				UI_LABEL_SIZE_X,
-				UI_LABEL_SIZE_Y),
-				UI_FONT_SIZE + String.Format(UX_TANGO_SERVICE_VERSION, m_tangoServiceVersion) + "</size>");
-
-			GUI.Label(new Rect(UI_LABEL_START_X,
-				UI_FPS_LABEL_START_Y,
-				UI_LABEL_SIZE_X,
-				UI_LABEL_SIZE_Y),
-				UI_FONT_SIZE + m_fpsText + "</size>");
-
-			// MOTION TRACKING
-			GUI.Label(new Rect(UI_LABEL_START_X,
-				UI_POSE_LABEL_START_Y - UI_LABEL_OFFSET,
-				UI_LABEL_SIZE_X,
-				UI_LABEL_SIZE_Y),
-				UI_FONT_SIZE + String.Format(UX_TARGET_TO_BASE_FRAME, "Device", "Start") + "</size>");
-
-			Vector3 pos = m_tangoPose.transform.position;
-			Quaternion quat = m_tangoPose.transform.rotation;
-			string positionString = pos.x.ToString(UI_FLOAT_FORMAT) + ", " +
-				pos.y.ToString(UI_FLOAT_FORMAT) + ", " +
-				pos.z.ToString(UI_FLOAT_FORMAT);
-			string rotationString = quat.x.ToString(UI_FLOAT_FORMAT) + ", " +
-				quat.y.ToString(UI_FLOAT_FORMAT) + ", " +
-				quat.z.ToString(UI_FLOAT_FORMAT) + ", " +
-				quat.w.ToString(UI_FLOAT_FORMAT);
-			string statusString = String.Format(UX_STATUS,
-				_GetLoggingStringFromPoseStatus(m_tangoPose.m_poseStatus),
-				_GetLoggingStringFromFrameCount(m_tangoPose.m_poseCount),
-				positionString, rotationString);
-			GUI.Label(new Rect(UI_LABEL_START_X,
-				UI_POSE_LABEL_START_Y,
-				UI_LABEL_SIZE_X,
-				UI_LABEL_SIZE_Y),
-				UI_FONT_SIZE + statusString + "</size>");
-			GUI.color = oldColor;
-		}
-
-		if (m_selectedMarker != null)
-		{
-			Renderer selectedRenderer = m_selectedMarker.GetComponent<Renderer>();
-
-			// GUI's Y is flipped from the mouse's Y
-			Rect screenRect = WorldBoundsToScreen(Camera.main, selectedRenderer.bounds);
-			float yMin = Screen.height - screenRect.yMin;
-			float yMax = Screen.height - screenRect.yMax;
-			screenRect.yMin = Mathf.Min(yMin, yMax);
-			screenRect.yMax = Mathf.Max(yMin, yMax);
-
-			if (GUI.Button(screenRect, "<size=30>Hide</size>"))
-			{
-				m_selectedMarker.SendMessage("Hide");
-				m_selectedMarker = null;
-				m_selectedRect = new Rect();
-			}
-			else
-			{
-				m_selectedRect = screenRect;
-			}
-		}
-		else
-		{
-			m_selectedRect = new Rect();
-		}
-
-		if (GameObject.FindObjectOfType<ARMarker>() != null)
-		{
-			m_hideAllRect = new Rect(Screen.width - UI_BUTTON_SIZE_X - UI_BUTTON_GAP_X,
-				Screen.height - UI_BUTTON_SIZE_Y - UI_BUTTON_GAP_X,
-				UI_BUTTON_SIZE_X,
-				UI_BUTTON_SIZE_Y);
-			if (GUI.Button(m_hideAllRect, "<size=30>Hide All</size>"))
-			{
-				foreach (ARMarker marker in GameObject.FindObjectsOfType<ARMarker>())
-				{
-					marker.SendMessage("Hide");
-				}
-			}
-		}
-		else
-		{
-			m_hideAllRect = new Rect(0, 0, 0, 0);
-		}
-	}
+		
 
 	/// <summary>
 	/// This is called when the permission granting process is finished.
@@ -449,7 +341,7 @@ public class ARGUIController : MonoBehaviour, ITangoLifecycle, ITangoDepth
 				GameObject tapped = hitInfo.collider.gameObject;
 				if (!tapped.GetComponent<Animation>().isPlaying)
 				{
-					m_selectedMarker = tapped.GetComponent<ARMarker>();
+					m_selectedMarker = tapped.GetComponent<PaperMarker>();
 				}
 			}
 			else
@@ -532,7 +424,7 @@ public class ARGUIController : MonoBehaviour, ITangoLifecycle, ITangoDepth
 			forward = Vector3.Cross(up, cam.transform.right);
 		}
 
-		Instantiate(m_prefabMarker, planeCenter, Quaternion.LookRotation(forward, up));
+		Instantiate(m_prefabMarker, planeCenter, Quaternion.identity);
 		m_selectedMarker = null;
 	}
 }
