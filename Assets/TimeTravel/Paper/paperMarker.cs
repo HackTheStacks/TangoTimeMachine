@@ -3,18 +3,14 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class PaperMarker : MonoBehaviour {
-	
-	public Text debugText;
 
 	public Renderer rend;
 
 	// Use this for initialization
 	void Start () {
-		debugText.text = "HEY WE STARTED!!!";
 		rend = GetComponent<Renderer>();
 		rend.enabled = true;
-		debugText.text = rend.ToString ();
-		Texture resource = Resources.Load("105_Early_Man_Mastodons_and_Mammoths") as Texture;
+		Texture resource = Resources.Load("115_Fossil_Reptiles_and_Fishes") as Texture;
 		rend.material.mainTexture = resource;
 	}
 	

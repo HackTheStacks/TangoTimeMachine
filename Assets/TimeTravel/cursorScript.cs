@@ -398,22 +398,8 @@ public class cursorScript : MonoBehaviour, ITangoLifecycle, ITangoDepth
 		{
 			yield break;
 		}
-
-		Vector3 up = plane.normal;
-		Vector3 forward;
-		if (Vector3.Angle(plane.normal, cam.transform.forward) < 175)
-		{
-			Vector3 right = Vector3.Cross(up, cam.transform.forward).normalized;
-			forward = Vector3.Cross(right, up).normalized;
-		}
-		else
-		{
-			// Normal is nearly parallel to camera look direction, the cross product would have too much
-			// floating point error in it.
-			forward = Vector3.Cross(up, cam.transform.right);
-		}
-
-		Instantiate(m_prefabMarker, planeCenter, Quaternion.LookRotation(forward, up));
+			
+		Instantiate (m_prefabMarker, planeCenter, Quaternion.FromToRotation (new Vector3 (0, 0, -1), plane.normal));
 		m_selectedMarker = null;
 	}
 }
