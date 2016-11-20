@@ -1,345 +1,338 @@
 [
     {
-        "floor": 0,
-        "exhibit": "History and Work of the Museum",
-        "area": null,
-        "start_page": 10,
-        "end_page": 10
-    },
-    {
-        "floor": 0,
-        "exhibit": "Location",
-        "area": null,
-        "start_page": 10,
-        "end_page": 10
-    },
-    {
-        "floor": 0,
-        "exhibit": "Hours of Admission",
-        "area": null,
-        "start_page": 10,
-        "end_page": 13
-    },
-    {
-        "floor": 0,
-        "exhibit": "Study Collections",
-        "area": null,
-        "start_page": 13,
-        "end_page": 18
-    },
-    {
-        "floor": 0,
-        "exhibit": "Workshops",
-        "area": null,
-        "start_page": 18,
-        "end_page": 21
-    },
-    {
         "floor": 1,
-        "exhibit": "Visitors' Room",
-        "area": null,
-        "start_page": 21,
-        "end_page": 21
-    },
-    {
-        "floor": 1,
-        "exhibit": "Memorial Hall",
+        "new_exhibit": "Grand Gallery",
         "area": "South Pavilion",
-        "start_page": 21,
-        "end_page": 23
+        "old_exhibit": "Memorial Hall",
+        "end_page": 23,
+        "start_page": 21
     },
     {
         "floor": 1,
-        "exhibit": "Meteorites",
+        "new_exhibit": "Grand Gallery",
         "area": null,
-        "start_page": 23,
-        "end_page": 23
+        "old_exhibit": "Meteorites",
+        "end_page": 23,
+        "start_page": 23
     },
     {
         "floor": 1,
-        "exhibit": "Indians of North Pacific Coast",
+        "new_exhibit": "Northwest Coast Indians",
         "area": "South Central Wing",
-        "start_page": 23,
-        "end_page": 26
+        "old_exhibit": "Indians of North Pacific Coast",
+        "end_page": 26,
+        "start_page": 23
     },
     {
         "floor": 1,
-        "exhibit": "Eskimo Collections",
+        "new_exhibit": "Northwest Coast Indians",
         "area": "South Central Wing",
-        "start_page": 26,
-        "end_page": 26
+        "old_exhibit": "Eskimo Collections",
+        "end_page": 26,
+        "start_page": 26
     },
     {
         "floor": 1,
-        "exhibit": "Mural Decorations",
+        "new_exhibit": null,
         "area": "South Central Wing",
-        "start_page": 26,
-        "end_page": 27
+        "old_exhibit": "Mural Decorations",
+        "end_page": 27,
+        "start_page": 26
     },
     {
         "floor": 1,
-        "exhibit": "Auditorium",
+        "new_exhibit": "LeFrak IMAX Theater",
         "area": "Central Pavilion",
-        "start_page": 27,
-        "end_page": 27
+        "old_exhibit": "Auditorium",
+        "end_page": 27,
+        "start_page": 27
     },
     {
         "floor": 1,
-        "exhibit": "Indians of the Woodlands",
+        "new_exhibit": "Spitzer Hall of Human Origins",
         "area": "Southwest Wing",
-        "start_page": 27,
-        "end_page": 31
+        "old_exhibit": "Indians of the Woodlands",
+        "end_page": 31,
+        "start_page": 27
     },
     {
         "floor": 1,
-        "exhibit": "Indians of the Plains",
+        "new_exhibit": "Ross Hall of Meteorites",
         "area": "Southwest Pavilion",
-        "start_page": 31,
-        "end_page": 34
+        "old_exhibit": "Indians of the Plains",
+        "end_page": 34,
+        "start_page": 31
     },
     {
         "floor": 1,
-        "exhibit": "Indians of the Southwest",
+        "new_exhibit": "Guggenheim Hall of Minerals",
         "area": "West Wing",
-        "start_page": 34,
-        "end_page": 37
+        "old_exhibit": "Indians of the Southwest",
+        "end_page": 37,
+        "start_page": 34
     },
     {
         "floor": 1,
-        "exhibit": "Polar Maps",
+        "new_exhibit": null,
         "area": "East Corridor",
-        "start_page": 37,
-        "end_page": 37
+        "old_exhibit": "Polar Maps",
+        "end_page": 37,
+        "start_page": 37
     },
     {
         "floor": 1,
-        "exhibit": "Jesup Collection of North American Woods",
+        "new_exhibit": "Warburg Hall of New York State Environment",
         "area": "Southeast Wing",
-        "start_page": 37,
-        "end_page": 39
+        "old_exhibit": "Jesup Collection of North American Woods",
+        "end_page": 39,
+        "start_page": 37
     },
     {
         "floor": 1,
-        "exhibit": "Darwin Hall, Invertebrates",
+        "new_exhibit": "North American Forests",
         "area": "Southeast Pavilion",
-        "start_page": 39,
-        "end_page": 47
+        "old_exhibit": "Darwin Hall, Invertebrates",
+        "end_page": 47,
+        "start_page": 39
     },
     {
         "floor": 2,
-        "exhibit": "Amphibians, Reptiles",
+        "new_exhibit": "Birds of the World",
         "area": "South Pavilion",
-        "start_page": 47,
-        "end_page": 51
+        "old_exhibit": "Amphibians, Reptiles",
+        "end_page": 51,
+        "start_page": 47
     },
     {
         "floor": 2,
-        "exhibit": "Local Birds",
+        "new_exhibit": null,
         "area": "West Corridor",
-        "start_page": 51,
-        "end_page": 53
+        "old_exhibit": "Local Birds",
+        "end_page": 53,
+        "start_page": 51
     },
     {
         "floor": 2,
-        "exhibit": "Ancient Monuments of Mexico and Central America",
+        "new_exhibit": "Mexico and Central America",
         "area": "Southwest Wing",
-        "start_page": 53,
-        "end_page": 55
+        "old_exhibit": "Ancient Monuments of Mexico and Central America",
+        "end_page": 55,
+        "start_page": 53
     },
     {
         "floor": 2,
-        "exhibit": "Prehistoric Man of North America and Europe",
+        "new_exhibit": null,
         "area": "Southwest Pavilion",
-        "start_page": 55,
-        "end_page": 57
+        "old_exhibit": "Prehistoric Man of North America and Europe",
+        "end_page": 57,
+        "start_page": 55
     },
     {
         "floor": 2,
-        "exhibit": "Collections from Africa",
+        "new_exhibit": "South American Peoples",
         "area": "West Wing",
-        "start_page": 57,
-        "end_page": 58
+        "old_exhibit": "Collections from Africa",
+        "end_page": 58,
+        "start_page": 57
     },
     {
         "floor": 2,
-        "exhibit": "Birds of the World",
+        "new_exhibit": "African Peoples",
         "area": "South Central Wing",
-        "start_page": 58,
-        "end_page": 63
+        "old_exhibit": "Birds of the World",
+        "end_page": 63,
+        "start_page": 58
     },
     {
         "floor": 2,
-        "exhibit": "Recent Fishes",
+        "new_exhibit": null,
         "area": "Corridor of Central Pavilion",
-        "start_page": 63,
-        "end_page": 67
+        "old_exhibit": "Recent Fishes",
+        "end_page": 67,
+        "start_page": 63
     },
     {
         "floor": 2,
-        "exhibit": "Mammals of North America",
+        "new_exhibit": "Stout Hall of Asian Peoples",
         "area": "Southeast Wing",
-        "start_page": 67,
-        "end_page": 74
+        "old_exhibit": "Mammals of North America",
+        "end_page": 74,
+        "start_page": 67
     },
     {
         "floor": 2,
-        "exhibit": "Preparation of Elephant Group",
+        "new_exhibit": null,
         "area": "Southeast Pavilion",
-        "start_page": 74,
-        "end_page": 75
+        "old_exhibit": "Preparation of Elephant Group",
+        "end_page": 75,
+        "start_page": 74
     },
     {
         "floor": 3,
-        "exhibit": "Members' Room",
+        "new_exhibit": null,
         "area": "East Corridor",
-        "start_page": 75,
-        "end_page": 75
+        "old_exhibit": "Members' Room",
+        "end_page": 75,
+        "start_page": 75
     },
     {
         "floor": 3,
-        "exhibit": "Monkeys. Apes, Rodents and Bats",
+        "new_exhibit": "Primates",
         "area": "South Central Pavilion",
-        "start_page": 75,
-        "end_page": 77
+        "old_exhibit": "Monkeys. Apes, Rodents and Bats",
+        "end_page": 77,
+        "start_page": 75
     },
     {
         "floor": 3,
-        "exhibit": "Right Whale Skeleton",
+        "new_exhibit": "Cuba!",
         "area": "South Pavilion",
-        "start_page": 77,
-        "end_page": 77
+        "old_exhibit": "Right Whale Skeleton",
+        "end_page": 77,
+        "start_page": 77
     },
     {
         "floor": 3,
-        "exhibit": "Habitat Groups of North American Birds",
+        "new_exhibit": "Sanford Hall of North American Birds",
         "area": "South Central Wing",
-        "start_page": 77,
-        "end_page": 85
+        "old_exhibit": "Habitat Groups of North American Birds",
+        "end_page": 85,
+        "start_page": 77
     },
     {
         "floor": 3,
-        "exhibit": "Public Health: Water Supply, Insects and Disease",
+        "new_exhibit": null,
         "area": "West Corridor",
-        "start_page": 85,
-        "end_page": 90
+        "old_exhibit": "Public Health: Water Supply, Insects and Disease",
+        "end_page": 90,
+        "start_page": 85
     },
     {
         "floor": 3,
-        "exhibit": "Auduboniana",
+        "new_exhibit": null,
         "area": "West Corridor",
-        "start_page": 90,
-        "end_page": 91
+        "old_exhibit": "Auduboniana",
+        "end_page": 91,
+        "start_page": 90
     },
     {
         "floor": 3,
-        "exhibit": "Indians of South America",
+        "new_exhibit": "Eastern Woodlands Indians",
         "area": "Southwest Wing",
-        "start_page": 91,
-        "end_page": 95
+        "old_exhibit": "Indians of South America",
+        "end_page": 95,
+        "start_page": 91
     },
     {
         "floor": 3,
-        "exhibit": "Chinese and Siberian Collections",
+        "new_exhibit": null,
         "area": "Southwest Pavilion",
-        "start_page": 95,
-        "end_page": 97
+        "old_exhibit": "Chinese and Siberian Collections",
+        "end_page": 97,
+        "start_page": 95
     },
     {
         "floor": 3,
-        "exhibit": "Shells",
+        "new_exhibit": "Margaret Mead Hall of Pacific Peoples",
         "area": "West Wing",
-        "start_page": 97,
-        "end_page": 98
+        "old_exhibit": "Shells",
+        "end_page": 98,
+        "start_page": 97
     },
     {
         "floor": 3,
-        "exhibit": "Mammals of the World, Their Families and Evolution",
+        "new_exhibit": "Cuba!",
         "area": "Southeast Wing",
-        "start_page": 98,
-        "end_page": 99
+        "old_exhibit": "Mammals of the World, Their Families and Evolution",
+        "end_page": 99,
+        "start_page": 98
     },
     {
         "floor": 3,
-        "exhibit": "Hall of Insect Life",
+        "new_exhibit": null,
         "area": "Southeast Pavilion",
-        "start_page": 99,
-        "end_page": 103
+        "old_exhibit": "Hall of Insect Life",
+        "end_page": 103,
+        "start_page": 99
     },
     {
         "floor": 4,
-        "exhibit": "Foreword on Fossil Vertebrates",
+        "new_exhibit": null,
         "area": null,
-        "start_page": 103,
-        "end_page": 104
+        "old_exhibit": "Foreword on Fossil Vertebrates",
+        "end_page": 104,
+        "start_page": 103
     },
     {
         "floor": 4,
-        "exhibit": "Fossil Fishlike Lizards",
+        "new_exhibit": null,
         "area": "West Corridor",
-        "start_page": 104,
-        "end_page": 104
+        "old_exhibit": "Fossil Fishlike Lizards",
+        "end_page": 104,
+        "start_page": 104
     },
     {
         "floor": 4,
-        "exhibit": "Early Man, Mastodons and Mammoths",
+        "new_exhibit": "Wallach Orientation Center",
         "area": "South Pavilion",
-        "start_page": 104,
-        "end_page": 108
+        "old_exhibit": "Early Man, Mastodons and Mammoths",
+        "end_page": 108,
+        "start_page": 104
     },
     {
         "floor": 4,
-        "exhibit": "Mammals of the Tertiary Period",
+        "new_exhibit": "Milstein Hall of Advanced Mammals",
         "area": "Southeast Wing",
-        "start_page": 108,
-        "end_page": 112
+        "old_exhibit": "Mammals of the Tertiary Period",
+        "end_page": 112,
+        "start_page": 108
     },
     {
         "floor": 4,
-        "exhibit": "Fossil Reptiles and Fishes",
+        "new_exhibit": "Primitive Mammals",
         "area": "Southeast Pavilion",
-        "start_page": 112,
-        "end_page": 118
+        "old_exhibit": "Fossil Reptiles and Fishes",
+        "end_page": 118,
+        "start_page": 112
     },
     {
         "floor": 4,
-        "exhibit": "Geology and Invertebrate Palaeontology",
+        "new_exhibit": "Vertebrate Origins",
         "area": "South Central Wing",
-        "start_page": 118,
-        "end_page": 125
+        "old_exhibit": "Geology and Invertebrate Palaeontology",
+        "end_page": 125,
+        "start_page": 118
     },
     {
         "floor": 4,
-        "exhibit": "Gems and Precious Stones",
+        "new_exhibit": null,
         "area": "West Corridor",
-        "start_page": 125,
-        "end_page": 126
+        "old_exhibit": "Gems and Precious Stones",
+        "end_page": 126,
+        "start_page": 125
     },
     {
         "floor": 4,
-        "exhibit": "Minerals",
+        "new_exhibit": null,
         "area": "Southwest Wing",
-        "start_page": 126,
-        "end_page": 126
+        "old_exhibit": "Minerals",
+        "end_page": 126,
+        "start_page": 126
     },
     {
         "floor": 4,
-        "exhibit": "Collections from the Pacific Islands",
+        "new_exhibit": null,
         "area": "Southwest Pavilion",
-        "start_page": 126,
-        "end_page": 129
+        "old_exhibit": "Collections from the Pacific Islands",
+        "end_page": 129,
+        "start_page": 126
     },
     {
         "floor": 4,
-        "exhibit": "Collections from the Philippines",
+        "new_exhibit": null,
         "area": "West Wing",
-        "start_page": 129,
-        "end_page": 134
+        "old_exhibit": "Collections from the Philippines",
+        "end_page": 134,
+        "start_page": 129
     },
-    {
-        "floor": 0,
-        "exhibit": "Publications",
-        "area": null,
-        "start_page": 134,
-        "end_page": 136
-    }
 ]
